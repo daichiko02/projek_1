@@ -12,4 +12,8 @@ public class Rectangle {
     public int area() {
         return this.length * this.width;
     }
+
+    public int area2(){
+
+    }
 }
