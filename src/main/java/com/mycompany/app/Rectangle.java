@@ -20,4 +20,8 @@ public class Rectangle {
     public int area23466(){
         return 0;
     }
+
+    public int are1(){
+        return 0;
+    }
 }
