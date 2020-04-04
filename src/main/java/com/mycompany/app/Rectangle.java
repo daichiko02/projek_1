@@ -1,9 +1,15 @@
 package com.mycompany.app;
 
 public class Rectangle {
+    private int length;
+    private int width;
 
-    private  int asd;
-    public int area(int length, int width) {
-        return 12;
+    Rectangle(int length, int width){
+        this.length=length;
+        this.width=width;
+    }
+
+    public int area() {
+        return this.length*this.width;
     }
 }
