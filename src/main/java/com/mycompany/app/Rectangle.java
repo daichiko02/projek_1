@@ -14,6 +14,6 @@ public class Rectangle {
     }
 
     public int area23(){
-
+        return 0;
     }
 }
