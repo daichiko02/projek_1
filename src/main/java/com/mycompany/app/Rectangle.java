@@ -13,7 +13,11 @@ public class Rectangle {
         return this.length * this.width;
     }
 
-    public int area2(){
+    public int area23(){
+        return 0;
+    }
+
+    public int area234(){
         return 0;
     }
 }
