@@ -1,6 +1,6 @@
 package com.mycompany.app;
 
-public class Rectangle {
+class Rectangle {
     private int length;
     private int width;
 
@@ -9,19 +9,15 @@ public class Rectangle {
         this.width = width;
     }
 
-    public int area() {
+    static Rectangle makeSquare(int side){
+        return new Rectangle(side,side);
+    }
+
+    int area() {
         return this.length * this.width;
     }
 
-    public int area23(){
-        return 1;
-    }
-
-    public int area23466(){
-        return 0;
-    }
-
-    public int area2345(){
-        return 0;
+    int perimeter() {
+        return 2 * this.length + 2 * this.width;
     }
 }
